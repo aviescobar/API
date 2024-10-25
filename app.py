@@ -10,4 +10,8 @@ from PIL import Image
 app = Flask(__name__)
 # Función para procesar la imagen
 def process_image(image_data):
+    # Leer la imagen desde los datos recibidos
+    image = Image.open(io.BytesIO(image_data))
+    image = np.array(image)
+
 
