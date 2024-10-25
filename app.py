@@ -48,7 +48,7 @@ def process_image(image_data):
 # Ruta para la página HTML
 @app.route('/')
 def index():
-
+    return render_template('index.html')
     
 
 
