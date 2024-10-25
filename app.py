@@ -44,6 +44,8 @@ def process_image(image_data):
     img_base64 = base64.b64encode(buf.getvalue()).decode('utf-8')
 
     return img_base64
+
+# Ruta para la página HTML
     
 
 
