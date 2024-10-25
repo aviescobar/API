@@ -14,7 +14,10 @@ def process_image(image_data):
     image = Image.open(io.BytesIO(image_data))
     image = np.array(image)
 
- # Redimensionar la imagen a (96, 96)
- resized_image = cv2.resize(image, (96, 96))
+   # Redimensionar la imagen a (96, 96)
+    resized_image = cv2.resize(image, (96, 96))
+
+   # Convertir la imagen redimensionada a escala de grises
+    gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
 
 
