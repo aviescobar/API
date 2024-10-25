@@ -26,5 +26,7 @@ def process_image(image_data):
      # Detectar puntos clave y descriptores
     keypoints, descriptors = orb.detectAndCompute(gray_image, None)
 
+    # Dibujar "X" rojas en las posiciones de los puntos clave
+
 
 
