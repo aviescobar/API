@@ -28,5 +28,9 @@ def process_image(image_data):
 
     # Dibujar "X" rojas en las posiciones de los puntos clave
 
+    plt.figure(figsize=(7,7))
+    plt.imshow(gray_image, cmap='gray')  # Mostrar la imagen en escala de grises
+
+
 
 
