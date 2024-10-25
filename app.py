@@ -52,6 +52,7 @@ def index():
 
 # Ruta para procesar la imagen
 @app.route('/procesar_imagen', methods=['POST'])
+def procesar_imagen():
 
 
 
