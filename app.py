@@ -51,6 +51,7 @@ def index():
     return render_template('index.html')
 
 # Ruta para procesar la imagen
+@app.route('/procesar_imagen', methods=['POST'])
 
 
 
