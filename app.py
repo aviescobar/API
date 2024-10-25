@@ -15,5 +15,6 @@ def process_image(image_data):
     image = np.array(image)
 
  # Redimensionar la imagen a (96, 96)
+ resized_image = cv2.resize(image, (96, 96))
 
 
