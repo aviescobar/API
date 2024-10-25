@@ -1,3 +1,4 @@
+
 from flask import Flask, request, jsonify, render_template
 import numpy as np
 import cv2
@@ -54,6 +55,7 @@ def index():
 @app.route('/procesar_imagen', methods=['POST'])
 def procesar_imagen():
     if 'file' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
 
 
 
