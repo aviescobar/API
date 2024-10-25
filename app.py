@@ -35,6 +35,8 @@ def process_image(image_data):
         x, y = kp.pt
         plt.plot(x, y, 'rx')  # 'rx' indica color rojo y marca tipo "X"
 
+     plt.axis('off')  # No mostrar ejes
+
 
 
 
