@@ -14,4 +14,6 @@ def process_image(image_data):
     image = Image.open(io.BytesIO(image_data))
     image = np.array(image)
 
+ # Redimensionar la imagen a (96, 96)
+
 
