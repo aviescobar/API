@@ -24,5 +24,7 @@ def process_image(image_data):
     orb = cv2.ORB_create()
 
      # Detectar puntos clave y descriptores
+    keypoints, descriptors = orb.detectAndCompute(gray_image, None)
+
 
 
