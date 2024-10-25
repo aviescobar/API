@@ -56,6 +56,7 @@ def index():
 def procesar_imagen():
     if 'file' not in request.files:
         return jsonify({'error': 'No file part'}), 400
+     file = request.files['file']
 
 
 
