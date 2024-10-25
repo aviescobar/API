@@ -31,6 +31,10 @@ def process_image(image_data):
     plt.figure(figsize=(7,7))
     plt.imshow(gray_image, cmap='gray')  # Mostrar la imagen en escala de grises
 
+     for kp in keypoints:
+        x, y = kp.pt
+        plt.plot(x, y, 'rx')  # 'rx' indica color rojo y marca tipo "X"
+
 
 
 
