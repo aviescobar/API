@@ -9,4 +9,5 @@ from PIL import Image
 
 app = Flask(__name__)
 # Función para procesar la imagen
+def process_image(image_data):
 
