@@ -21,5 +21,6 @@ def process_image(image_data):
     gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
 
      # Inicializar el detector ORB
+    orb = cv2.ORB_create()
 
 
