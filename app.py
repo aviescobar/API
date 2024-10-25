@@ -20,4 +20,6 @@ def process_image(image_data):
    # Convertir la imagen redimensionada a escala de grises
     gray_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
 
+     # Inicializar el detector ORB
+
 
