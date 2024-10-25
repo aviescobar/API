@@ -23,4 +23,6 @@ def process_image(image_data):
      # Inicializar el detector ORB
     orb = cv2.ORB_create()
 
+     # Detectar puntos clave y descriptores
+
 
