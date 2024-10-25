@@ -58,5 +58,8 @@ def procesar_imagen():
         return jsonify({'error': 'No file part'}), 400
      file = request.files['file']
 
+    if file.filename == '':
+        return jsonify({'error': 'No selected file'}), 400
+
 
 
