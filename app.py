@@ -38,6 +38,7 @@ def process_image(image_data):
      plt.axis('off')  # No mostrar ejes
 
     # Convertir el gráfico de matplotlib en imagen y luego a base64
+    buf = io.BytesIO()
 
 
 
